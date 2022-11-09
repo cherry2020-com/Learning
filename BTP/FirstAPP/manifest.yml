@@ -1,0 +1,29 @@
+---
+applications:
+  - name: myapp
+    routes:
+      - route: python-1234-aaaa-56789.cfapps.us10.hana.ondemand.com
+    path: ./
+    memory: 128M
+    buildpack: python_buildpack
+    command: python server.py
+
+  - name: web
+    routes:
+      - route: web-1234-aaaa-56789.cfapps.us10.hana.ondemand.com
+    path: web
+    memory: 128M
+    env:
+      destinations: >
+        [
+          {
+            "name":"myapp",
+            "url":"https://python-1234-aaaa-5678.cfapps.eu20.hana.ondemand.com",
+            "forwardAuthToken": true
+          }
+        ]
+    services:
+      - pyuaa
+
+
+

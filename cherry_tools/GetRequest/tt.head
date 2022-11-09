@@ -1,0 +1,15 @@
+GET /tencentcareer/api/post/Query?timestamp=1667459789617&countryId=&cityId=&bgIds=&productId=&categoryId=&parentCategoryId=&attrId=&keyword=&pageIndex=4&pageSize=10&language=zh-cn&area=us HTTP/1.1
+Host: careers.tencent.com
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://careers.tencent.com/search.html?index=2
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Cookie: _ga=GA1.2.180143940.1663765012; _gcl_au=1.1.1993667316.1663765014; loading=agree; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22100000474615%22%2C%22first_id%22%3A%22183601f59b957-0b0490ae2da6ce-26021c51-1024000-183601f59ba597%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTgzNjAxZjU5Yjk1Ny0wYjA0OTBhZTJkYTZjZS0yNjAyMWM1MS0xMDI0MDAwLTE4MzYwMWY1OWJhNTk3IiwiJGlkZW50aXR5X2xvZ2luX2lkIjoiMTAwMDAwNDc0NjE1In0%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%22100000474615%22%7D%2C%22%24device_id%22%3A%22183601f59b957-0b0490ae2da6ce-26021c51-1024000-183601f59ba597%22%7D
